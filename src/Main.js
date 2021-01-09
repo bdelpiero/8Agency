@@ -1,16 +1,18 @@
 import React from "react";
 import { hot } from "react-hot-loader/root";
+import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Landing from "./components/Landing";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Main = () => {
   return (
     <>
       <Header />
-      {/* <Switch>
+      <Switch>
         <Route exact path='/' component={Landing} />
-      </Switch> */}
+      </Switch>
       <Footer />
     </>
   );

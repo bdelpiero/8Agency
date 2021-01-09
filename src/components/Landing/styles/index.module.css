@@ -1,0 +1,15 @@
+.container {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  /* background-color: magenta; */
+  width: 60%;
+}
+.form {
+  /* background-color: blue; */
+  width: 40%;
+}
+/* .form {} */

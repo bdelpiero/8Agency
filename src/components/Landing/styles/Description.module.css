@@ -1,0 +1,9 @@
+.text {
+  margin: 60px 0;
+  font-size: 16px;
+  color: var(--seccondary);
+  width: 90%;
+  /* text-align: justify; */
+  letter-spacing: 0;
+  line-height: 28px;
+}

@@ -1,0 +1,31 @@
+/* .listContainer {
+
+} */
+
+.listContainer li {
+  margin: 20px 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.img {
+  height: 80px;
+  margin: 10px;
+}
+
+.text {
+  margin: 20px;
+}
+
+.text h4 {
+  color: var(--main);
+  font-size: 1.3rem;
+}
+
+.text p {
+  color: var(--main);
+  font-size: 0.9rem;
+  margin: 0;
+}
