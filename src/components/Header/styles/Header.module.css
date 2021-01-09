@@ -1,0 +1,44 @@
+/* @font-face {
+  font-family: "SharpSansNo1-Bold";
+  src: local("SharpSansNo1-Bold.woff") format("woff");
+} */
+
+.mainHeader {
+  background-image: url(../../../../assets/Group\ 4.svg);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: var(--main);
+  /* font-family: SharpSansNo1-Bold; */
+
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+}
+
+.subtitle {
+  color: var(--main);
+  font-size: 21px;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.badge {
+  font-weight: bold;
+  border-width: 0;
+  background-color: #c05100;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0.93px;
+  text-align: center;
+  /* line-height: 15px; */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
