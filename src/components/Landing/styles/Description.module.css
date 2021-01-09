@@ -2,8 +2,12 @@
   margin: 60px 0;
   font-size: 16px;
   color: var(--seccondary);
-  width: 90%;
+  width: 85%;
   /* text-align: justify; */
   letter-spacing: 0;
   line-height: 28px;
+}
+
+.logos {
+  width: 100%;
 }

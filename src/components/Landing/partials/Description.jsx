@@ -6,7 +6,7 @@ import style from "../styles/Description.module.css";
 
 const Description = () => (
   <div className={layout.description}>
-    <img src={logos} alt='' style={{ width: "100%" }} />
+    <img src={logos} alt='' className={style.logos} />
     <p className={style.text}>
       Te invitan este webinar, donde trataremos la temática de cómo humanizar la
       experiencia del cliente de Banca y Seguros en el nuevo entorno digital.
@@ -30,7 +30,7 @@ const Description = () => (
       <br />
       <br />
     </p>
-    <img src={logos} alt='' style={{ width: "100%" }} />
+    <img src={logos} alt='' className={style.logos} />
   </div>
 );
 
