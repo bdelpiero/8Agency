@@ -4,7 +4,8 @@
 } */
 
 .mainHeader {
-  background-image: url(../../../../assets/Group\ 4.svg);
+  background: no-repeat url(../../../../assets/Group\ 4.svg);
+  background-size: cover;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -40,5 +41,5 @@
   /* line-height: 15px; */
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }

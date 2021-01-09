@@ -3,7 +3,7 @@ import styles from "./styles/Header.module.css";
 
 const Header = () => (
   <header className={styles.mainHeader}>
-    <div className={styles.badge}>WEBINAR</div>
+    <span className={styles.badge}>WEBINAR</span>
     <div>
       <h1 className={styles.title}>
         El reto de humanizar el CX financiero en 2021
