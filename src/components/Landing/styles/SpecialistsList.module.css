@@ -29,3 +29,9 @@
   font-size: 0.9rem;
   margin: 0;
 }
+
+@media (max-width: 900px) {
+  .listContainer {
+    margin: 0 7.5%;
+  }
+}

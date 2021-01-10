@@ -13,3 +13,16 @@
   width: 50%;
 }
 /* .form {} */
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .description {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}

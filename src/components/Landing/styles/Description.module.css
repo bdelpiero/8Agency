@@ -11,3 +11,10 @@
 .logos {
   width: 100%;
 }
+
+@media (max-width: 900px) {
+  .text {
+    margin: 60px auto;
+    text-align: justify;
+  }
+}
