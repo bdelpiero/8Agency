@@ -7,20 +7,21 @@
   align-items: center;
   justify-content: center;
 }
+
 .textContainer {
   margin: 0 10%;
 }
 
 .title {
   color: var(--main);
-  /* font-family: SharpSansNo1-Bold; */
-
+  font-family: SharpSansNo1-Bold;
   font-size: 40px;
   text-align: center;
   line-height: 52px;
 }
 
 .subtitle {
+  font-family: SharpSansNo1;
   color: var(--main);
   font-size: 21px;
   text-align: center;
@@ -29,6 +30,7 @@
 }
 
 .badge {
+  font-family: SharpSansNo1-Bold;
   font-weight: bold;
   border-width: 0;
   background-color: #c05100;

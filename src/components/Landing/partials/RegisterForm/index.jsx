@@ -18,7 +18,7 @@ const onlyNums = /^\d+$/;
 const RegisterForm = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   const handleClose = () => setShowModal(false);
 

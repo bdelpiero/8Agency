@@ -7,3 +7,23 @@
   --main: #02363d;
   --seccondary: #405457;
 }
+
+@font-face {
+  font-family: "SharpSansNo1-Bold";
+  src: url("../assets/fonts/SharpSansNo1-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SharpSansNo1";
+  src: url("../assets/fonts/shsn-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SharpSansNo1-Medium";
+  src: url("../assets/fonts/SharpSansNo1Medium-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("../assets/fonts/proximanova-regular-webfont.woff") format("woff");
+}

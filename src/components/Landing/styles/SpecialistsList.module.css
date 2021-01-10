@@ -20,11 +20,13 @@
 }
 
 .text h4 {
+  font-family: SharpSansNo1-Bold;
   color: var(--main);
   font-size: 1.3rem;
 }
 
 .text p {
+  font-family: SharpSansNo1-Medium;
   color: var(--main);
   font-size: 0.9rem;
   margin: 0;
