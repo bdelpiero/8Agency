@@ -6,16 +6,15 @@ import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Main = () => {
-  return (
-    <>
-      <Header />
-      <Switch>
-        <Route exact path='/' component={Landing} />
-      </Switch>
-      <Footer />
-    </>
-  );
-};
+// Uses Switch and Route in case new routes are required
+const Main = () => (
+  <>
+    <Header />
+    <Switch>
+      <Route path='/' component={Landing} />
+    </Switch>
+    <Footer />
+  </>
+);
 
 export default hot(Main);

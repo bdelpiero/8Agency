@@ -59,6 +59,9 @@ const config = {
   },
   devServer: {
     contentBase: "./dist",
+    historyApiFallback: {
+      index: "index.html",
+    },
   },
 };
 

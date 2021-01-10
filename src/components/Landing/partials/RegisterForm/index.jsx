@@ -18,7 +18,7 @@ const onlyNums = /^\d+$/;
 const RegisterForm = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);
 
@@ -36,14 +36,7 @@ const RegisterForm = () => {
 
         <Modal.Body
           className={styles.modal}
-          style={{ padding: "20px 50px 50px 50px" }}
-          // style={{
-          //   maxWidth: 600,
-          //   width: 600,
-          //   padding: "20px 50px 50px 50px",
-          //   textAlign: "center",
-          // }}
-        >
+          style={{ padding: "20px 50px 50px 50px" }}>
           <h3>Obrigado pelo seu interesse.</h3>
           <p>
             Entraremos em contato com você em breve no e-mail que você preencheu
