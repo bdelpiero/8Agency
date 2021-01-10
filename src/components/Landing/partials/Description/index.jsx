@@ -1,8 +1,8 @@
 import React from "react";
 import SpecialistsList from "./SpecialistsList";
-import logos from "../../../../assets/Group 5.jpg";
-import layout from "../styles/index.module.css";
-import styles from "../styles/Description.module.css";
+import logos from "../../../../../assets/Group 5.jpg";
+import layout from "../../styles/index.module.css";
+import styles from "../../styles/Description.module.css";
 
 const Description = () => (
   <div className={layout.description}>

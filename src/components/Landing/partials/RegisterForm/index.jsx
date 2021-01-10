@@ -85,9 +85,8 @@ const RegisterForm = () => {
               .then((doc) => {
                 if (doc.exists)
                   setErrorMessage("This email is already registered");
-                else docRef.set(values);
+                else docRef.set(values).then(() => setShowModal(true));
               })
-              .then(() => setShowModal(true))
               .catch((err) => setErrorMessage("Validation error"))
               .finally(() => {
                 setIsLoading(false);

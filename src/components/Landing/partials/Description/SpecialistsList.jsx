@@ -1,6 +1,6 @@
 import React from "react";
-import picture from "../../../../assets/img-astudillo.png";
-import style from "../styles/SpecialistsList.module.css";
+import picture from "../../../../../assets/img-astudillo.png";
+import style from "../../styles/SpecialistsList.module.css";
 
 const positions = [
   "Presidente",
