@@ -10,7 +10,7 @@ First install dependencies:
 npm install
 ```
 
-To run in hot module reloading mode (runs in http://localhost:8080):
+To run in hot module reloading mode (runs in localhost:8080):
 
 ```sh
 npm start
@@ -34,10 +34,7 @@ Open the file `dist/index.html` in your browser
 
 ## Main technologies
 
-**React**: Frontend React app
-**CSS Modules**: For Styling
-**Formik**: Handling forms logic
-**Cloud Firestore**: Data storage
+-**React**: Frontend React app -**CSS Modules**: For Styling -**Formik**: Handling forms logic -**Cloud Firestore**: Data storage
 
 ## Credits
 
