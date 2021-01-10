@@ -34,7 +34,10 @@ Open the file `dist/index.html` in your browser
 
 ## Main technologies
 
--**React**: Frontend React app -**CSS Modules**: For Styling -**Formik**: Handling forms logic -**Cloud Firestore**: Data storage
+**React**: Frontend React app <br />
+**CSS Modules**: For Styling <br />
+**Formik**: Handling forms logic <br />
+**Cloud Firestore**: Data storage
 
 ## Credits
 
