@@ -4,12 +4,12 @@ import styles from "./styles/Header.module.css";
 const Header = () => (
   <header className={styles.mainHeader}>
     <span className={styles.badge}>WEBINAR</span>
-    <div>
+    <div className={styles.textContainer}>
       <h1 className={styles.title}>
-        El reto de humanizar el CX financiero en 2021
+        El reto de humanizar el CX financiero en 2021.
       </h1>
       <h1 className={styles.title}>
-        <i>La experiencia de un Unicornio de Latam</i>
+        <i>La experiencia de un Unicornio de Latam.</i>
       </h1>
 
       <h3 className={styles.subtitle}>

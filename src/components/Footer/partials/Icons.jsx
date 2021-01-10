@@ -5,9 +5,10 @@ import linkedin from "../../../../assets/social/linkedin.svg";
 import youtube from "../../../../assets/social/youtube.svg";
 import instagram from "../../../../assets/social/insta.svg";
 import snapchat from "../../../../assets/social/snapchat-brands.svg";
+import styles from "../styles/Footer.module.css";
 
 const Icons = () => (
-  <div>
+  <div className={styles.icons}>
     <img
       src={twitter}
       alt=''

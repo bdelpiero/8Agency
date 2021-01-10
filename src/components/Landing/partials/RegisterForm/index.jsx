@@ -19,23 +19,37 @@ const RegisterForm = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
+
   const handleClose = () => setShowModal(false);
 
   return (
     <div className={layout.form}>
-      <Modal show={showModal} onHide={handleClose}>
-        {/* <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header> */}
-        <Modal.Body className={styles.modal}>
-          ¡Felicitaciones! Te registraste con éxito.
-          <img src={successIcon} alt='' />
+      <Modal
+        show={showModal}
+        onHide={handleClose}
+        centered
+        dialogClassName={styles.dialog}
+        contentClassName={styles.content}>
+        <Modal.Header
+          closeButton={true}
+          style={{ borderBottom: 0 }}></Modal.Header>
+
+        <Modal.Body
+          className={styles.modal}
+          style={{ padding: "20px 50px 50px 50px" }}
+          // style={{
+          //   maxWidth: 600,
+          //   width: 600,
+          //   padding: "20px 50px 50px 50px",
+          //   textAlign: "center",
+          // }}
+        >
+          <h3>Obrigado pelo seu interesse.</h3>
+          <p>
+            Entraremos em contato com você em breve no e-mail que você preencheu
+            no formulário"
+          </p>
         </Modal.Body>
-        {/* <Modal.Footer>
-          <Button variant='secondary' onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer> */}
       </Modal>
       <div className={styles.formContainer}>
         <h5>¡Inscríbete y reserva tu lugar ahora!</h5>
