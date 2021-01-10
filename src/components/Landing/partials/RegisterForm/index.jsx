@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Formik, Form } from "formik";
 import { TextInput, Select } from "./customFields";
+import SuccessModal from "./SuccessModal";
 import db from "../../../../../db";
 import * as Yup from "yup";
 import layout from "../../styles/index.module.css";
 import styles from "../../styles/RegisterForm.module.css";
 import countryList from "react-select-country-list";
-import { Alert, Spinner, Modal } from "react-bootstrap";
-import successIcon from "../../../../../assets/success.svg";
+
+import { Alert, Spinner } from "react-bootstrap";
 
 // Get list of countries
 const options = countryList().getLabels();
@@ -24,26 +25,8 @@ const RegisterForm = () => {
 
   return (
     <div className={layout.form}>
-      <Modal
-        show={showModal}
-        onHide={handleClose}
-        centered
-        dialogClassName={styles.dialog}
-        contentClassName={styles.content}>
-        <Modal.Header
-          closeButton={true}
-          style={{ borderBottom: 0 }}></Modal.Header>
+      <SuccessModal showModal={showModal} handleClose={handleClose} />
 
-        <Modal.Body
-          className={styles.modal}
-          style={{ padding: "20px 50px 50px 50px" }}>
-          <h3>Obrigado pelo seu interesse.</h3>
-          <p>
-            Entraremos em contato com você em breve no e-mail que você preencheu
-            no formulário"
-          </p>
-        </Modal.Body>
-      </Modal>
       <div className={styles.formContainer}>
         <h5>¡Inscríbete y reserva tu lugar ahora!</h5>
         <Formik
