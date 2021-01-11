@@ -21,7 +21,7 @@ export const Select = ({ label, ...props }) => {
   return (
     <div className={styles.field}>
       <label htmlFor={props.id || props.name}>{label}</label>
-      <select {...field} {...props} />
+      <select {...field} {...props} style={{ backgroundColor: "white" }} />
       {meta.touched && meta.error ? (
         <div className={styles.error}>{meta.error}</div>
       ) : null}
