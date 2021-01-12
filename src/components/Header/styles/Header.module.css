@@ -61,6 +61,20 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .subtitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .badge {
+    font-size: 20px;
+  }
+}
+
 @keyframes wiggle {
   0% {
     transform: rotateZ(0);
