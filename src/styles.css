@@ -27,3 +27,12 @@
   font-family: "ProximaNova-Regular";
   src: url("../assets/fonts/proximanova-regular-webfont.woff") format("woff");
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

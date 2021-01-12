@@ -12,32 +12,38 @@ const Icons = () => (
     <img
       src={twitter}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
     <img
       src={facebook}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
     <img
       src={linkedin}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
     <img
       src={youtube}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
     <img
       src={instagram}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
     <img
       src={snapchat}
       alt=''
-      style={{ color: "gray", height: "50px", margin: "5px" }}
+      className={styles.icon}
+      // style={{ color: "gray", height: "50px", margin: "5px" }}
     />
   </div>
 );

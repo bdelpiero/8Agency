@@ -22,6 +22,19 @@
   letter-spacing: 0;
 }
 
+.icon {
+  color: gray;
+  height: 50px;
+  margin: 5px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.icon:hover {
+  top: -5px;
+}
+
 @media (max-width: 600px) {
   .footer {
     height: auto;
